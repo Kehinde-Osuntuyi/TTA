@@ -18,4 +18,4 @@ WHERE amount IN ('1.98', '7.98', '9.98');
 -- Task 4. Last name where second letter is an A and a W anywhere after the A.
 SElECT last_name, first_name
 FROM customer
-WHERE last_name LIKE '_A%' AND last_name LIKE '__%W%';
+WHERE last_name LIKE '_A%W%';
